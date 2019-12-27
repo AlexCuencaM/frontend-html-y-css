@@ -1,0 +1,18 @@
+/*
+    Selecciona todos los elementos que tengan la clase barrita
+    que sean de tipo nav
+*/
+nav.barrita{
+    background-color: black;
+}
+
+/*
+    Selecciona todos los elementos hijos de la clase barrita
+    despues selecciona todos los elementos a
+    se le aplica las propiedades correspondiente
+    La pseudoclase nth-child tiene un parametro que recibe un numero
+    o una formula, la n quiere decir que va iterar todos los hijos
+*/
+.barrita a:nth-child(n) { 
+     color: white;
+}
