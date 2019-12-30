@@ -2,8 +2,17 @@
     Selecciona todos los elementos que tengan la clase barrita
     que sean de tipo nav
 */
+html, body{
+    padding-top: 0px;
+    margin: 0px;
+    background-color: #464646;
+    font-size: 14px;
+}
 nav.barrita{
-    background-color: black;
+ /* Style for "navbar" */            
+    padding-bottom: 10px;
+    background-color: #252424;
+    
 }
 
 /*
@@ -13,6 +22,70 @@ nav.barrita{
     La pseudoclase nth-child tiene un parametro que recibe un numero
     o una formula, la n quiere decir que va iterar todos los hijos
 */
+.barrita img{
+/* Style for "960x114_25" */
+/* Style for "logo" */
+    
+    width: 77px;
+    height: 52px;    
+}
 .barrita a:nth-child(n) { 
-     color: white;
+    /* Style for "Tienda" */
+    width: 55px;
+    height: 21px;
+    color: #f2f2f2;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+#tienda{
+/* Style for "Tienda" */
+    
+}
+#about{
+/* Style for "Acerca de" */    
+}
+#login{
+/* Style for "Login" */    
+}
+#banner{
+    /* Style for "960x114_25" */    
+    padding-top: 20px;
+    width: 100%;
+    height: 150px;
+}
+
+h2{
+    /* Style for "Título" */    
+    height: 28px;
+    color: #f2f2f2;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+}
+h3{    
+    
+    height: 40px;
+    color: #f2f2f2;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+p{
+/* Style for "Descripcio" */
+    color: #f2f2f2;
+    font-family: Roboto;    
+    font-weight: 400;
+}
+.articulo{
+    /* Style for "Background" */
+    width: 1000px;
+    height: 300px;
+    background-color: #252424;
+}
+figure img{    
+    /* Style for "laptop-hp-" */
+    width: 110px;
+    height: 114px;
+    background-color: #f2f2f2;
 }
