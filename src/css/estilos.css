@@ -43,8 +43,7 @@ nav li{
 }
 
 nav li a:nth-child(n) {         
-    color: #f2f2f2;
-    
+    color: #f2f2f2;    
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;    
@@ -66,24 +65,17 @@ main{
 
 h2{
     /* Style for "Título" */    
-    height: 28px;
-    color: #f2f2f2;
-    font-family: Roboto;
+    height: 28px;     
     font-size: 24px;
     font-weight: 400;
 }
-h3{    
-    
-    height: 40px;
-    color: #f2f2f2;
-    font-family: Roboto;
+h3{        
+    height: 40px;        
     font-size: 18px;
     font-weight: 400;
 }
 p{
-/* Style for "Descripcio" */
-    color: #f2f2f2;
-    font-family: Roboto;    
+/* Style for "Descripcio" */        
     font-weight: 400;
 }
 article{
@@ -103,7 +95,6 @@ figure img{
 
 figure .content{   
     display: flexbox;
-
 }
 button.compra{
     /* Style for "Rectangle" */
@@ -111,8 +102,7 @@ button.compra{
     width: 172px;
     height: 32px;    
     /* Style for "Comprar ar" */
-    color: #f2f2f2;
-    font-family: Roboto;
+    color: #f2f2f2;    
     font-size: 14px;
     font-weight: 400;
     background-color: #2f80ed;
@@ -126,5 +116,4 @@ footer{
     padding: 20px;          
     background-color: #f2f2f2;
     text-align: center;
-
 }
