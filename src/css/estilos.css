@@ -6,13 +6,17 @@ html, body{
     padding-top: 0px;
     margin: 0px;
     background-color: #464646;
+    color: #f2f2f2;
     font-size: 14px;
 }
-nav.barrita{
- /* Style for "navbar" */            
+
+nav{
+ /* Style for "navbar" */       
+    display: flex;
     padding-bottom: 10px;
     background-color: #252424;
-    
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*
@@ -22,22 +26,36 @@ nav.barrita{
     La pseudoclase nth-child tiene un parametro que recibe un numero
     o una formula, la n quiere decir que va iterar todos los hijos
 */
-.barrita img{
+nav img{
 /* Style for "960x114_25" */
 /* Style for "logo" */
     
     width: 77px;
     height: 52px;    
 }
-.barrita a:nth-child(n) { 
-    /* Style for "Tienda" */
-    width: 55px;
-    height: 21px;
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-right: 40px;
+    list-style: none;    
+}
+
+nav li a:nth-child(n) {         
     color: #f2f2f2;
     font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
+    text-decoration: none;
 }
+
+nav ul li a:nth-child(n):hover {         
+    color: #2F80ED;
+        
+}
+
 #tienda{
 /* Style for "Tienda" */
     
