@@ -1,7 +1,3 @@
-/*
-    Selecciona todos los elementos que tengan la clase barrita
-    que sean de tipo nav
-*/
 html, body{
     padding-top: 0px;
     margin: 0px;
@@ -9,8 +5,15 @@ html, body{
     color: #f2f2f2;
     font-family: Roboto;
     font-size: 14px;
+    font-weight: 400;    
 }
-
+a{
+    color: #f2f2f2;        
+    text-decoration: none;    
+}
+a:hover{
+    color: #2F80ED;
+}
 nav{
  /* Style for "navbar" */       
     display: flex;
@@ -19,14 +22,6 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-
-/*
-    Selecciona todos los elementos hijos de la clase barrita
-    despues selecciona todos los elementos a
-    se le aplica las propiedades correspondiente
-    La pseudoclase nth-child tiene un parametro que recibe un numero
-    o una formula, la n quiere decir que va iterar todos los hijos
-*/
 nav img{
 /* Style for "logo" */
     width: 77px;
@@ -41,17 +36,12 @@ nav li{
     padding-right: 40px;
     list-style: none;    
 }
-
-nav li a:nth-child(n) {         
+nav li a{         
     color: #f2f2f2;    
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 18px;    
     text-decoration: none;    
 }
 
-nav ul li a:nth-child(n):hover {         
-    color: #2F80ED;        
-}
 main{
     padding:5%;
 }
@@ -66,18 +56,13 @@ main{
 h2{
     /* Style for "Título" */    
     height: 28px;     
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 24px;    
 }
 h3{        
     height: 40px;        
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 18px;    
 }
-p{
-/* Style for "Descripcio" */        
-    font-weight: 400;
-}
+
 article{
     /* Style for "Background" */    
     background-color: #252424;
@@ -102,17 +87,15 @@ button.compra{
     width: 172px;
     height: 32px;    
     /* Style for "Comprar ar" */
-    color: #f2f2f2;    
-    font-size: 14px;
-    font-weight: 400;
+    color: #f2f2f2;        
     background-color: #2f80ed;
+}
+button.compra:hover{
+    background-color: #27AE60;    
 }
 footer{
     /* Style for "Footer" */    
     color: #0a0909;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;    
     padding: 20px;          
     background-color: #f2f2f2;
     text-align: center;
