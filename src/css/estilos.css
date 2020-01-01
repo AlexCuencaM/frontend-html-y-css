@@ -31,7 +31,9 @@ nav.verde{
 nav.azul{
     background-color: #2f80ed;
 }
-
+nav.morado{
+    background-color: #9B51E0;
+}
 nav img{
 /* Style for "logo" */
     width: 77px;
@@ -56,12 +58,6 @@ nav li a{
     padding: 0px;
     width: 100%;
     height: 10%;
-}
-
-#aud{
-    padding: 10px;    
-    display: flex;  
-    justify-content: center;      
 }
 
 #aud small{
@@ -116,9 +112,13 @@ figure img{
     height: 114px;
     padding-right:40px;        
 }
-
 .content{   
-    display: flexbox;
+    display: block;
+}
+.media{    
+    display: flex;     
+    justify-content: center;   
+    padding-bottom: 40px;   
 }
 button.compra{
     /* Style for "Rectangle" */
@@ -152,6 +152,11 @@ footer{
     background-color: #f2f2f2;
     text-align: center;
 }
-.login h1{
+.titulo{
     text-align: center;
+    padding-bottom: 20px;
+}
+.about {
+    font-size: 16px;
+    text-align: justify;
 }
