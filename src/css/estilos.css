@@ -14,6 +14,9 @@ a{
 a:hover{
     color: #2F80ED;
 }
+.azul a:hover{
+    color: #252424;
+}
 nav{
  /* Style for "navbar" */       
     display: flex;
@@ -25,6 +28,10 @@ nav{
 nav.verde{
     background-color: #27ae60;
 }
+nav.azul{
+    background-color: #2f80ed;
+}
+
 nav img{
 /* Style for "logo" */
     width: 77px;
@@ -110,7 +117,7 @@ figure img{
     padding-right:40px;        
 }
 
-figure .content{   
+.content{   
     display: flexbox;
 }
 button.compra{
@@ -124,10 +131,27 @@ button.compra{
 button.compra:hover{
     background-color: #27AE60;    
 }
+.otro_main{    
+    display: flex;    
+    justify-content: center;
+    padding-bottom: 15%;
+}
+.login{
+    padding: 10px;
+}
+label{
+    display: inline-block;
+    width: 72px;
+    height: 20px;
+    padding-right: 40px;
+}
 footer{
     /* Style for "Footer" */            
     color: #0a0909;
     padding: 20px;          
     background-color: #f2f2f2;
+    text-align: center;
+}
+.login h1{
     text-align: center;
 }
