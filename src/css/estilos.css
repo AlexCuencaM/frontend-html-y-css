@@ -16,8 +16,15 @@ a{
     text-decoration: none;    
 }
 a:hover{
-    color: #2F80ED;
+    color: #f2f2f2;
 }
+.negro a{
+    color: #f2f2f2;
+}
+.negro a:hover{
+    color: #2f80ed;
+}
+
 .azul a:hover{
     color: #252424;
 }
@@ -56,7 +63,7 @@ nav li{
 /* Se agregaron estas reglas
  por que con el elemento a es necesario hacerlo de manera explicita */
 nav li a{         
-    color: #f2f2f2;    
+    color: black;    
     font-size: 18px;    
     
 }
@@ -128,12 +135,17 @@ button.compra{
     border: none;
     width: 172px;
     height: 32px;        
-    color: #f2f2f2;        
-    background-color: #2f80ed;
+    color: white;        
+    background-color: #0c4a9b;
 }
 button.compra:hover{
     background-color: #27AE60;    
 }
+
+button.compra:focus{
+    background-color: #219653;
+}
+
 .titulo{
     text-align: center;
     padding-bottom: 20px;
