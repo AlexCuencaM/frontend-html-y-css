@@ -4,11 +4,15 @@ html, body{
     background-color: #464646;
     color: #f2f2f2;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;    
 }
-a{
-    color: #f2f2f2;        
+h3{        
+    height: 40px;        
+    font-size: 18px;    
+}
+a{  
+    color: #f2f2f2;              
     text-decoration: none;    
 }
 a:hover{
@@ -17,6 +21,7 @@ a:hover{
 .azul a:hover{
     color: #252424;
 }
+
 nav{
  /* Style for "navbar" */       
     display: flex;
@@ -48,10 +53,12 @@ nav li{
     padding-right: 40px;
     list-style: none;    
 }
+/* Se agregaron estas reglas
+ por que con el elemento a es necesario hacerlo de manera explicita */
 nav li a{         
     color: #f2f2f2;    
     font-size: 18px;    
-    text-decoration: none;    
+    
 }
 #banner{
     /* Style for "960x114_25" */        
@@ -60,48 +67,23 @@ nav li a{
     height: 10%;
 }
 
-#aud small{
-    padding: 5px;       
-}
+/* La parte principal de la pagina */
 main{
     padding:5%;
 }
-h2{
-    /* Style for "Título" */    
-    height: 28px;     
-    font-size: 24px;    
+.otro_main{    
+    display: flex;    
+    justify-content: center;
+    padding-bottom: 15%;
 }
-h3{        
-    height: 40px;        
-    font-size: 18px;    
+.media small{
+    padding: 5px;       
 }
 
 article{
     /* Style for "Background" */    
     background-color: #252424;
     padding: 20px;
-}
-.products{
-/* Style for "Rectangle" */
-    display: flex;
-    justify-content: space-around;
-}
-.tienda{
-    padding: 10px;    
-}
-.tienda img{
-    /* Style for "Rectangle" */        
-    width: 200px;
-    height: 200px;
-    
-}
-div.imagen{
-    display: flex;
-    justify-content: center;
-}
-li.compra{
-    list-style: none;   
-    padding: 5px;   
 }
 
 figure{
@@ -112,14 +94,35 @@ figure img{
     height: 114px;
     padding-right:40px;        
 }
-.content{   
-    display: block;
+.products{
+    /* Style for "Rectangle" */
+    display: flex;
+    justify-content: space-around;
 }
+.tienda{
+    padding: 10px;    
+}
+.tienda img{
+    /* Style for "Rectangle" */        
+    width: 200px;
+    height: 200px;    
+}
+div.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+li.compra{
+    list-style: none;   
+    padding: 5px;   
+}
+
 .media{    
     display: flex;     
     justify-content: center;   
     padding-bottom: 40px;   
 }
+
 button.compra{
     /* Style for "Rectangle" */
     border: none;
@@ -131,10 +134,9 @@ button.compra{
 button.compra:hover{
     background-color: #27AE60;    
 }
-.otro_main{    
-    display: flex;    
-    justify-content: center;
-    padding-bottom: 15%;
+.titulo{
+    text-align: center;
+    padding-bottom: 20px;
 }
 .login{
     padding: 10px;
@@ -145,6 +147,7 @@ label{
     height: 20px;
     padding-right: 40px;
 }
+
 footer{
     /* Style for "Footer" */            
     color: #0a0909;
@@ -152,11 +155,11 @@ footer{
     background-color: #f2f2f2;
     text-align: center;
 }
-.titulo{
-    text-align: center;
-    padding-bottom: 20px;
-}
-.about {
-    font-size: 16px;
+
+.about {    
     text-align: justify;
+}
+
+.content{   
+    display: block;
 }
